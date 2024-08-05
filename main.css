@@ -1,0 +1,121 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.home-background {
+    background-image: url(home-images/map.png); /* Replace with your image URL */
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    margin-top: 0px;
+}
+
+h1 {
+    color: white;
+    font-size: 4em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-right: 5px;
+}
+
+.buttons button {
+    padding: 8px 8px;    
+    font-size: 15px;    
+    cursor: pointer;    
+    background-color: white;
+    border: none; /* Remove border */
+
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+.home-images {
+    margin: 10px;
+}
+
+.home-images img {
+    width: 80%;
+    max-width: 90%; /* Adjust based on your preference */
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+.NZ-background {
+    background-image: url(NZ-images/new-zealand-flag.jpg); /* Replace with your image URL */
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    margin: auto;
+}
+
+.country-image {
+    text-align: center;
+}
+
+.country-image img {
+    width: 80%;
+    max-width: 90%; /* Adjust based on your preference */
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    align-self: stretch;
+    text-align: centre;
+}
+
+
+h6{
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+.accordion-button{
+    text-align: center;
+}
+
+a{
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+}
